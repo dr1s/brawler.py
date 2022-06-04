@@ -1,0 +1,18 @@
+---
+accounts:
+  master:
+    user: user1
+    password: password1
+  toons:
+    - user: user2
+      password: password2
+    - user: user3
+      password: password2
+    - user: user4
+      password: password2
+    - user: user5
+      password: password2
+
+wine_prefix_base: /home/dr1s/Games/wow-mop/prefixes
+executable: /home/dr1s/Games/wow-mop/game/wow.exe
+keys_allowed: ["1","2","3","4","5","6","7","8","9","0","q","e","r","f","g","space"]

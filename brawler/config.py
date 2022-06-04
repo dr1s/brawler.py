@@ -1,0 +1,4 @@
+VERSION = "0.1.dev0"
+AUTHOR = "drs"
+
+LOGLEVEL = "INFO"

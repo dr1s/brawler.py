@@ -1,0 +1,3 @@
+pyyaml>=6.0
+Xlib>=0.21
+screeninfo>=0.8
