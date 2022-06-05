@@ -55,10 +55,6 @@ def wait_for(func, step=5, timeout=30):
 
 class brawler_config:
     def __init__(self, config, args):
-        # Set global config
-        if loglevel in config:
-            global_config.LOGLEVEL = config["loglevel"]
-
         # read config options
         self.screen_resolution_x, self.screen_resolution_y = get_primary_resolution()
         self.screen_resolution_offset = calculate_offset()
